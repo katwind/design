@@ -1,0 +1,41 @@
+@media only screen and (max-width: 1119px) {
+    .container, .description-cards, .container-call, .brands, .projects, .blogs, .info {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .container-call .text-container{
+        flex-basis: 40%;
+    }
+    .container-call .image img {
+        max-width: 100%;
+        padding: 0;
+    }
+    .projects-cards {
+
+        max-width: 1100px;
+        margin: 71px auto 0;
+    }
+    .projects .projects-card {
+        max-width: 430px;
+    }
+    .projects .projects-card img {
+        max-width: 100%;
+    }
+    .blog-cards {
+        justify-content: center;
+        gap: 10px;
+    }
+    .blog-card {
+        flex-basis: 30%;
+    }
+    .blog-card img {
+        max-width: 100%;
+    }
+    .info {
+        justify-content: space-between;
+    }
+    .site-map {
+        flex-basis: 70%;
+    }
+
+}
